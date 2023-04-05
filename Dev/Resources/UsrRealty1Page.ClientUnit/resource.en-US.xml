@@ -3,6 +3,9 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Edit page: &quot;Realty&quot;" />
+			<Item Name="LocalizableStrings.RealtyVisitsTabTabCaption.Value" Value="Realty Visits" />
+			<Item Name="LocalizableStrings.UsrSchema7d299a7aDetail683fc2b6DetailCaptionOnPage.Value" Value="Realty visit" />
+			<Item Name="LocalizableStrings.ValueMustBeGreaterThanZero.Value" Value="Value must be greater than zero." />
 		</Items>
 	</Group>
 </Resources>

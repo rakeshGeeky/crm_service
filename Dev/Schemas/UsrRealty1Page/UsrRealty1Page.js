@@ -1,7 +1,27 @@
 define("UsrRealty1Page", [], function() {
 	return {
 		entitySchemaName: "UsrRealty",
-		attributes: {},
+		attributes: {
+			"UsrCommissionUSD": { 
+
+					//"dataValueType": Terrasoft.DataValueType.FLOAT, 
+					//"type": Terrasoft.ViewModelColumnType.VIRTUAL_COLUMN, 
+					//"value": 0, 
+					dependencies: [ 
+						{ 
+							columns: ["UsrPrice", "UsrOfferType"], 
+							methodName: "calculateCommission" 
+						} 
+						]//, 
+					//"caption": "Commission, USD" 
+				}, 
+				"UsrOfferType": { 
+					lookupListConfig: { 
+						columns: ["UsrCommissionMultiplier"] 
+
+					} 
+			} 
+		},
 		modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
 		details: /**SCHEMA_DETAILS*/{
 			"Files": {
@@ -10,6 +30,14 @@ define("UsrRealty1Page", [], function() {
 				"filter": {
 					"masterColumn": "Id",
 					"detailColumn": "UsrRealty"
+				}
+			},
+			"UsrSchema7d299a7aDetail683fc2b6": {
+				"schemaName": "UsrRealtyVisitDetailGrid",
+				"entitySchemaName": "UsrRealtyVisit",
+				"filter": {
+					"detailColumn": "UsrParentRealty",
+					"masterColumn": "Id"
 				}
 			}
 		}/**SCHEMA_DETAILS*/,
@@ -39,7 +67,42 @@ define("UsrRealty1Page", [], function() {
 				}
 			}
 		}/**SCHEMA_BUSINESS_RULES*/,
-		methods: {},
+		methods: {
+			positiveValueValidator: function(value, column) { 
+			    var msg = ""; 
+				if (value < 0) { 
+					msg = this.get("Resources.Strings.ValueMustBeGreaterThanZero"); 
+				} 
+				return { 
+
+					invalidMessage: msg 
+				}; 
+			}, 
+			setValidationConfig: function() { 
+
+				this.callParent(arguments); 
+				this.addColumnValidator("UsrPrice", this.positiveValueValidator); 
+				this.addColumnValidator("UsrArea", this.positiveValueValidator); 
+			},
+			calculateCommission: function() {
+				var price = this.get("UsrPrice");
+				if (!price) { 
+					price = 0; 
+				} 
+				var offerTypeObject = this.get("UsrOfferType"); 
+				var coeff = 0;
+				if (offerTypeObject) {
+					coeff = offerTypeObject.UsrCommissionMultiplier; 
+				} 
+				var commission = price * coeff;
+				this.set("UsrCommissionUSD", commission); 
+			}, 
+			onEntityInitialized: function() { 
+				this.callParent(arguments); 
+				this.calculateCommission();
+			},
+			
+		},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
 			{
@@ -95,6 +158,24 @@ define("UsrRealty1Page", [], function() {
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
 				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "FLOAT9da1bdc5-0943-4331-99ee-b4b3cbed9a3c",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 3,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "UsrCommissionUSD",
+					"enabled": false
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 3
 			},
 			{
 				"operation": "insert",
@@ -155,10 +236,10 @@ define("UsrRealty1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "NotesAndFilesTab",
+				"name": "RealtyVisitsTab",
 				"values": {
 					"caption": {
-						"bindTo": "Resources.Strings.NotesAndFilesTabCaption"
+						"bindTo": "Resources.Strings.RealtyVisitsTabTabCaption"
 					},
 					"items": [],
 					"order": 0
@@ -166,6 +247,31 @@ define("UsrRealty1Page", [], function() {
 				"parentName": "Tabs",
 				"propertyName": "tabs",
 				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "UsrSchema7d299a7aDetail683fc2b6",
+				"values": {
+					"itemType": 2,
+					"markerValue": "added-detail"
+				},
+				"parentName": "RealtyVisitsTab",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "NotesAndFilesTab",
+				"values": {
+					"caption": {
+						"bindTo": "Resources.Strings.NotesAndFilesTabCaption"
+					},
+					"items": [],
+					"order": 1
+				},
+				"parentName": "Tabs",
+				"propertyName": "tabs",
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -223,7 +329,7 @@ define("UsrRealty1Page", [], function() {
 				"operation": "merge",
 				"name": "ESNTab",
 				"values": {
-					"order": 1
+					"order": 2
 				}
 			}
 		]/**SCHEMA_DIFF*/
