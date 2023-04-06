@@ -100,7 +100,7 @@ define("UsrRealty1Page", [], function() {
 			onEntityInitialized: function() { 
 				this.callParent(arguments); 
 				this.calculateCommission();
-			},
+			}
 			
 		},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
@@ -177,6 +177,7 @@ define("UsrRealty1Page", [], function() {
 				"propertyName": "items",
 				"index": 3
 			},
+			
 			{
 				"operation": "insert",
 				"name": "LOOKUPfde6b6a8-242a-4b01-8873-1c57b5bc3714",
