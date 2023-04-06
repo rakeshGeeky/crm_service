@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "1a968b94-a9c5-414c-85af-2079f0e07dc7",
     "Name": "UsrRealtyVisitDetailGrid",
-    "ModifiedOnUtc": "\/Date(1680674895000)\/",
+    "ModifiedOnUtc": "\/Date(1680768997000)\/",
     "Parent": {
       "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
       "Name": "BaseGridDetailV2"
