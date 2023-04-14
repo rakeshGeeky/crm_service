@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "5e45afea-b453-49a1-9e0f-34c0a2575564",
+    "Name": "UsrMedicine",
+    "ModifiedOnUtc": "\/Date(1681374018000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Medicine",
+    "DependsOn": []
+  }
+}

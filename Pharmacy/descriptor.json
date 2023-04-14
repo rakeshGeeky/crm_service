@@ -1,0 +1,17 @@
+﻿{
+  "Descriptor": {
+    "UId": "7f91972c-7418-16f5-c614-979d0ce4d26a",
+    "Name": "Pharmacy",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1681365224000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/Pharmacy.csproj",
+    "DependsOn": [
+      {
+        "UId": "d7559847-f38e-410c-baee-6f43bbe80d42",
+        "PackageVersion": "7.8.0",
+        "Name": "SalesEnterpriseSoftkey_ENU"
+      }
+    ]
+  }
+}

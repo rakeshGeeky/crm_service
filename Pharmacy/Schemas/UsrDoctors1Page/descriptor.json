@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "d3cae2db-6a37-4d1f-aefe-baed04bde656",
+    "Name": "UsrDoctors1Page",
+    "ModifiedOnUtc": "\/Date(1681380225000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Edit page: \"Doctors\"",
+    "DependsOn": []
+  }
+}

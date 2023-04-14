@@ -1,0 +1,116 @@
+= MetaData.Schema.UId "95971be6-abad-461c-9f9d-9ce9fa323fe3"
+= MetaData.Schema.A2 "UsrPharma"
+= MetaData.Schema.A5 "669d2485-3989-46c3-b50d-4d85cc244736"
+= MetaData.Schema.B6 "7f91972c-7418-16f5-c614-979d0ce4d26a"
+= MetaData.Schema.B8 "8.0.6.3522"
+= MetaData.Schema.EG1.UId "552cf65d-9876-4fa7-b797-5522e170a355"
+= MetaData.Schema.EG1.A2 "UsrPharmaEventsProcess"
+= MetaData.Schema.EG1.A5 "669d2485-3989-46c3-b50d-4d85cc244736"
+= MetaData.Schema.EG1.B1 []
+= MetaData.Schema.EG1.B3 []
++ MetaData.Schema.EG1.B8 "8.0.6.3522"
+= MetaData.Schema.EG1.FJ1 []
+= MetaData.Schema.EG1.BK37.A3 "bb4d6607-026b-4b27-b640-8f5c77c1e89d"
+= MetaData.Schema.EG1.BK37.A4 "bb4d6607-026b-4b27-b640-8f5c77c1e89d"
+= MetaData.Schema.EG1.BK3 []
+= MetaData.Schema.EG1.BK4 []
++ MetaData.Schema.EG1.Labels []
+= MetaData.Schema.D8 "1bab9dcf-17d5-49f8-9536-8e0064f1dce0"
++ MetaData.Schema.D4 "df6236e7-bb9f-46c3-93ba-8420288d5012"
++ MetaData.Schema.D2 {
+  "UId": "df6236e7-bb9f-46c3-93ba-8420288d5012",
+  "A2": "UsrName",
+  "A3": "95971be6-abad-461c-9f9d-9ce9fa323fe3",
+  "A4": "95971be6-abad-461c-9f9d-9ce9fa323fe3",
+  "A5": "669d2485-3989-46c3-b50d-4d85cc244736",
+  "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
+  "E5": false
+}
++ MetaData.Schema.D2 {
+  "UId": "ee70012f-ef3d-4d9d-8b1d-d9cba009876a",
+  "A2": "UsrNotes",
+  "A3": "95971be6-abad-461c-9f9d-9ce9fa323fe3",
+  "A4": "95971be6-abad-461c-9f9d-9ce9fa323fe3",
+  "A5": "669d2485-3989-46c3-b50d-4d85cc244736",
+  "S2": "c0f04627-4620-4bc0-84e5-9419dc8516b1",
+  "E5": false
+}
++ MetaData.Schema.D2 {
+  "UId": "e2f081b8-1a40-430d-925a-d393ed262e31",
+  "A2": "UsrDoctor",
+  "A3": "95971be6-abad-461c-9f9d-9ce9fa323fe3",
+  "A4": "95971be6-abad-461c-9f9d-9ce9fa323fe3",
+  "A5": "669d2485-3989-46c3-b50d-4d85cc244736",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+  "E6": true,
+  "E17": "UsrDoctorId",
+  "E18": "UsrDoctorName"
+}
++ MetaData.Schema.D2 {
+  "UId": "72349b48-31b3-4c7d-a3fe-2a93fcdb0b35",
+  "A2": "UsrPatient",
+  "A3": "95971be6-abad-461c-9f9d-9ce9fa323fe3",
+  "A4": "95971be6-abad-461c-9f9d-9ce9fa323fe3",
+  "A5": "669d2485-3989-46c3-b50d-4d85cc244736",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+  "E6": true,
+  "E17": "UsrPatientId",
+  "E18": "UsrPatientName"
+}
++ MetaData.Schema.D2 {
+  "UId": "04282d4e-f3c0-4c7a-aa5d-c3a30ba86c38",
+  "A2": "UsrPharmacist",
+  "A3": "95971be6-abad-461c-9f9d-9ce9fa323fe3",
+  "A4": "95971be6-abad-461c-9f9d-9ce9fa323fe3",
+  "A5": "669d2485-3989-46c3-b50d-4d85cc244736",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+  "E6": true,
+  "E17": "UsrPharmacistId",
+  "E18": "UsrPharmacistName"
+}
++ MetaData.Schema.D2 {
+  "UId": "aac38c6d-c300-4813-b5f6-2d85b1ab7a8d",
+  "A2": "UsrDatetime",
+  "A3": "95971be6-abad-461c-9f9d-9ce9fa323fe3",
+  "A4": "95971be6-abad-461c-9f9d-9ce9fa323fe3",
+  "A5": "669d2485-3989-46c3-b50d-4d85cc244736",
+  "S2": "d21e9ef4-c064-4012-b286-fa1a8171da44",
+  "E12": {
+    "FB1": 3,
+    "FB2": "d7c295d3-3146-4ee1-ac49-3a7bd0edc45d"
+  }
+}
++ MetaData.Schema.D2 {
+  "UId": "38c408aa-a277-486a-9e6e-07a26a5407fe",
+  "A2": "UsrPatientZipcode",
+  "A3": "95971be6-abad-461c-9f9d-9ce9fa323fe3",
+  "A4": "95971be6-abad-461c-9f9d-9ce9fa323fe3",
+  "A5": "669d2485-3989-46c3-b50d-4d85cc244736",
+  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+  "E2": 1
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","df6236e7-bb9f-46c3-93ba-8420288d5012","ee70012f-ef3d-4d9d-8b1d-d9cba009876a","e2f081b8-1a40-430d-925a-d393ed262e31","72349b48-31b3-4c7d-a3fe-2a93fcdb0b35","04282d4e-f3c0-4c7a-aa5d-c3a30ba86c38","aac38c6d-c300-4813-b5f6-2d85b1ab7a8d","38c408aa-a277-486a-9e6e-07a26a5407fe"]
+= MetaData.Schema.D20.A2 "UsrPharmaEvents"
+= MetaData.Schema.D36.A3 "95971be6-abad-461c-9f9d-9ce9fa323fe3"
+- MetaData.Schema.EG1.B6
+- MetaData.Schema.EG1.BK29
+- MetaData.Schema.EG1.BK30
+- MetaData.Schema.D1
+- MetaData.Schema.D20.A5
+- MetaData.Schema.D20.FA4
+- MetaData.Schema.D20.FA5
+- MetaData.Schema.D20.FA6
+- MetaData.Schema.D20.FA7
+- MetaData.Schema.D20.FA11
+- MetaData.Schema.D20.FA12
+- MetaData.Schema.D20.FA15
++ MetaData.Schema.B7 false
++ MetaData.Schema.D2.["ae0e45ca-c495-4fe7-a39d-3ab7278e1617"].E16 false
++ MetaData.Schema.D2.["e80190a5-03b2-4095-90f7-a193a960adee"].E16 false
++ MetaData.Schema.D2.["ebf6bb93-8aa6-4a01-900d-c6ea67affe21"].E16 false
++ MetaData.Schema.D2.["9928edec-4272-425a-93bb-48743fee4b04"].E16 false
++ MetaData.Schema.D2.["3015559e-cbc6-406a-88af-07f7930be832"].E16 false
++ MetaData.Schema.D2.["3fabd836-6a53-4d8d-9069-6df88d9dae1e"].E16 false

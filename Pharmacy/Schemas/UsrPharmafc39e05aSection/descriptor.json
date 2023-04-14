@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "6c8c254e-964e-4298-ad0d-3676fda72301",
+    "Name": "UsrPharmafc39e05aSection",
+    "ModifiedOnUtc": "\/Date(1681384005000)\/",
+    "Parent": {
+      "UId": "7912fb69-4fee-429f-8b23-93943c35d66d",
+      "Name": "BaseSectionV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Section schema: \"Pharmacy\"",
+    "DependsOn": []
+  }
+}

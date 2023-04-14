@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "7d8c2273-ce81-4eaa-9dac-9a1cde1a3247",
+    "Name": "UsrPharmaInTag",
+    "ModifiedOnUtc": "\/Date(1681384048000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Pharmacy section record tag",
+    "DependsOn": []
+  }
+}

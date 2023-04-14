@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Medicine" />
+			<Item Name="Columns.UsrDiscount.Caption" Value="Discount in percent" />
+			<Item Name="Columns.UsrPrescriptionRequired.Caption" Value="Prescription Required" />
+			<Item Name="Columns.UsrPrice.Caption" Value="price" />
+		</Items>
+	</Group>
+</Resources>

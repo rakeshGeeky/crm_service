@@ -1,0 +1,70 @@
+﻿{
+  "Descriptor": {
+    "UId": "4591d0dd-2dec-9714-3486-16e78b3aaca8",
+    "Name": "UsrMedicine_4591d0dd2dec9714348616e78b3aaca8",
+    "ModifiedOnUtc": "\/Date(1681375382000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "5e45afea-b453-49a1-9e0f-34c0a2575564",
+      "Name": "UsrMedicine"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+        "IsForceUpdate": true,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "079b844b-2bdb-0708-8650-999abc5a5b92",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "UsrPrescriptionRequired",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      },
+      {
+        "ColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "CreatedOn",
+        "DataTypeValueUId": "d21e9ef4-c064-4012-b286-fa1a8171da44"
+      },
+      {
+        "ColumnUId": "b4853787-116d-0219-265e-d594f4b0d5f2",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "UsrDiscount",
+        "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+      },
+      {
+        "ColumnUId": "2af9eb59-ea2d-af4b-15e3-ffe69070a170",
+        "IsForceUpdate": true,
+        "IsKey": false,
+        "ColumnName": "UsrPrice",
+        "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+      },
+      {
+        "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Description",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ModifiedOn",
+        "DataTypeValueUId": "d21e9ef4-c064-4012-b286-fa1a8171da44"
+      }
+    ]
+  }
+}

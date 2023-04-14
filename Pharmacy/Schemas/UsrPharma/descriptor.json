@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "95971be6-abad-461c-9f9d-9ce9fa323fe3",
+    "Name": "UsrPharma",
+    "ModifiedOnUtc": "\/Date(1681387729000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Pharmacy",
+    "DependsOn": []
+  }
+}

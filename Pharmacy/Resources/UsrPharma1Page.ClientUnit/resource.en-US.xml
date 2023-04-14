@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Edit page: &quot;Pharmacy&quot;" />
+			<Item Name="LocalizableStrings.Tabd8f2205bTabLabelTabCaption.Value" Value="Prescription" />
+			<Item Name="LocalizableStrings.UsrSchema1bf78588Detail69d21406DetailCaptionOnPage.Value" Value="Prescription" />
+			<Item Name="LocalizableStrings.UsrSchemaae9b8ff4Detaildda96e3cDetailCaptionOnPage.Value" Value="Prescription" />
+		</Items>
+	</Group>
+</Resources>

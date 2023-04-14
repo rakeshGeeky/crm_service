@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "874c190d-487a-41de-8163-4a6c4bffae7e",
+    "Name": "UsrPrescriptionPage",
+    "ModifiedOnUtc": "\/Date(1681449850000)\/",
+    "Parent": {
+      "UId": "d3cc497c-f286-4f13-99c1-751c468733c0",
+      "Name": "BasePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Prescription",
+    "DependsOn": []
+  }
+}

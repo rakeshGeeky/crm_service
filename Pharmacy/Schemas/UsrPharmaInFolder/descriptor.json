@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "be3181ca-1d24-4f83-80a8-675f3c05dea0",
+    "Name": "UsrPharmaInFolder",
+    "ModifiedOnUtc": "\/Date(1681384038000)\/",
+    "Parent": {
+      "UId": "4f63bafb-e9e7-4082-b92e-66b97c14017c",
+      "Name": "BaseItemInFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Pharmacy in Folder",
+    "DependsOn": []
+  }
+}
